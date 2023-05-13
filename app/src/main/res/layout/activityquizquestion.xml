@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    tools:context=".Quiz_Question_Activity">
+    tools:context=".Quiz_Question_Activity"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,7 +33,9 @@
             android:layout_height="200dp"
             android:layout_marginTop="10dp"
             android:contentDescription="Quiz Image"
-            android:src="@drawable/ic_brazil" />
+            android:src="@drawable/ic_brazil"
+            android:layout_margin="20dp"
+           />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,7 +63,8 @@
                 android:padding="16dp"
                 android:textSize="14sp"
                 android:text="0/9"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="#6c757d"/>
 
 
         </LinearLayout>

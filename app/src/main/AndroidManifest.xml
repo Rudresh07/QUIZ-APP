@@ -27,7 +27,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Quiz_Question_activity"
+            android:name=".Quiz_Question_Activity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

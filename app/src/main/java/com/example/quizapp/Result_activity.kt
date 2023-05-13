@@ -24,7 +24,7 @@ class Result_activity : AppCompatActivity() {
         val correctAnswer = intent.getIntExtra(Constant.CORRECT_ANS, 0)
 
 
-        tvScore.text = "You scored$correctAnswer out of $totalQuestions"
+        tvScore.text = "You scored $correctAnswer out of $totalQuestions"
 
         finish.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
